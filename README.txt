@@ -1,0 +1,3 @@
+My program can take in up to 15 publishers and 15 subscribers. Upon successful completion of the initial connection protocol, each publisher sends 1 entry to the pubServer to verify that enqueue works. Each subscriber reads 1 entry from the subServer to verify that the published entry was put in the topic store correctly and that the dequeue method does in fact work. There are plenty of print statement to help follow the sequence of events. 
+
+My code compiles with a simple "make" command. "./atp_part3" will run my main program, which prompts the user for n,m, and t through standard input. 
